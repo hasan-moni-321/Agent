@@ -18,11 +18,10 @@ This is an agent base application. I defined two agents one is "Retrieve" anothe
  
 
 ## How to improve accuracy 
-i) Choose the best LLMs model like GPT-4, Llama-3, Gemini-2
-ii) Collect more and more data with quality.
-iii) Fine-tune the LLMs for better 
-iv) If dataset is in dataframe/csv type data store them in MySQL database and query using LLMs model with defining best prompt. 
-v) 
+i) Choose the best LLMs model like GPT-4, Llama-3, Gemini-2  
+ii) Collect more and more data with quality.  
+iii) Fine-tune the LLMs for better   
+iv) If dataset is in dataframe/csv type data store them in MySQL database and query using LLMs model with defining best prompt.     
 
 ## 3.0 Architectural diagram illustrating multi-agent system interactions.  
 This is an agent base application. I defined two agents one is "Retrieve" another one is "Wiki_search". I defined some url for ingestion of the data, after pre-processing and Embedding the data, stored in serverless vector database. I used "DataStax" AstraDB database for storing the data as a serverless vector database. When user will give input(text) Router will take decision wether call the wiki_search agent or VectorDB agent for the best answer. For the LLMs I have choosen "Gemma2-9b-It" from "Groq", for that I used their API.  
