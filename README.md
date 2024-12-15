@@ -38,5 +38,8 @@ https://github.com/hasan-moni-321/Feature-Selection-Outlier-Detection/blob/maste
 
 ## Discussion of alternative approaches and trade-offs   
 1. Using Swarm framework and mySQL database. Swarm framework for multi-agent and MySQL for the database and then query the MySQL database using LLMs model. Although Swarm is not a framework for deployment, maybe with some months it will be production grade framework by OpenAI. 
-2. For multi-agent we can use LangFlow and their API for accesing Agents. Now-a-days its a very popular way to do Agent base application specially for multi-agent. 
+2. For multi-agent we can use LangFlow and their API for accesing Agents. Now-a-days its a very popular way to do Agent base application specially for multi-agent.
+
+## Note: 
+This is not a production grade application building. For production grade application need so much file and also need huge number of coding line for logging, error handling, setup, pipeline, CI, CD tools, Docker, DockerHub, Github Action, Cloud Service. Within 5 days it is impossible to build a production grade app.
 
