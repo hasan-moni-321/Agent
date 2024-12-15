@@ -1,5 +1,5 @@
 <h1 align="center">
-# Agent Base Application
+Agent Base Application
 </h1>
 
 ## 1.0 Projects Overview 
