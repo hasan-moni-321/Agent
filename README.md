@@ -30,9 +30,11 @@ This is an agent base application. I defined two agents one is "Retrieve" anothe
 here is 2 agents one is retrieve and the another one is wiki_search. Retrieve agent is for vectorDB search and wiki_search agent is for wikipedia search. 
 
 ## Justification for chosen LLM, frameworks, and data handling strategies  
-1. I have choosen "Gemma2-9b-It" LLM model for prediction. This is a simple and not very weighted model and provide quick response. Otherwise I cound choose GPT-4 or Gemini or Llama3-70b, those model is very high weighted and need high configured machine for prediction and ofcourse gives very good accuracy. If have very good pc/laptop I will choose GPT-4 or Gemini-2 or Llama-3.
-I used multiple framework like LangChain, LangGraph, Cassio. Specially for the Agent is used LangGraph with LangChain. I have experience of building Agent using LangGraph thats why I have choosen LangGraph. But in the future I will choose LangFlow and Swarm of OpenAI for building Agent base application.
-In this application I have selected some url for data ingestion. If dataset would be csv file I would choose a different technique for data ingestion, data preprocessing, feature engineering. 
+1. I have choosen "Gemma2-9b-It" LLM model for prediction. This is a simple and not very weighted model and provide quick response. Otherwise I cound choose GPT-4 or Gemini or Llama3-70b, those model is very high weighted and need high configured machine for prediction and ofcourse gives very good accuracy. If have very good pc/laptop I will choose GPT-4 or Gemini-2 or Llama-3.  
+I used multiple framework like LangChain, LangGraph, Cassio. Specially for the Agent is used LangGraph with LangChain. I have experience of building Agent using LangGraph thats why I have choosen LangGraph. But in the future I will choose LangFlow and Swarm of OpenAI for building Agent base application.  
+In this application I have selected some url for data ingestion. If dataset would be csv file I would choose a different technique for data ingestion, data preprocessing, feature engineering. For feature engineering you can visit my my feature engineering processes in github link in the below   
+https://github.com/hasan-moni-321/Feature-Selection-Outlier-Detection/blob/master/Feature_Selection_20_Models.ipynb
+
 
 ## Discussion of alternative approaches and trade-offs   
 1. Using Swarm framework and mySQL database. Swarm framework for multi-agent and MySQL for the database and then query the MySQL database using LLMs model. Although Swarm is not a framework for deployment, maybe with some months it will be production grade framework by OpenAI. 
